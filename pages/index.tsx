@@ -1,15 +1,19 @@
 import type { NextPage } from 'next'
-import { Coaching } from '../components/Coaching'
 import { AboutMe } from '../components/AboutMe'
+import { Coaching } from '../components/Coaching'
+import { Intro } from '../components/Intro'
+import { Offer } from '../components/Offer'
 import { Page } from '../components/Page'
-import { Place } from '../components/Place'
+import { Portfolio } from '../components/Portfolio'
 
 const Home: NextPage = () => {
   return (
     <Page>
+      <Intro />
+      <Portfolio />
       <AboutMe />
       <Coaching />
-      <Place />
+      <Offer/>
     </Page>
   )
 }

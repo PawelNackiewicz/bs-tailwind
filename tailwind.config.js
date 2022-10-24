@@ -5,6 +5,10 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'Petemoss': ['Petemoss'],
+      'Glory': ['Glory']
+    },
     extend: {},
   },
   plugins: [],

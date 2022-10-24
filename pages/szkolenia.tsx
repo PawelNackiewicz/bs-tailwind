@@ -3,7 +3,7 @@ import { Page } from "../components/Page";
 export default function Szkolenia() {
     return (
         <Page>
-            <article className="text-center flex flex-col gap-4 w-1/2 m-auto">
+            <article className="text-center flex flex-row gap-4 w-1/2 m-auto">
                 <section>
                     <h1 className="text-2xl font-bold">SZKOLENIA Z PRZEDŁUŻANIA RZĘS</h1>
                     <h2 className="text-xl font-semibold my-2">WOJEWÓDZTWO OPOLSKIE</h2>
