@@ -1,29 +1,30 @@
 import { BeautiqImage } from './BeautiqImage';
+import { Typography } from './Typography';
 
 export const Coaching = () => {
   return (
     <div className='flex flex-col items-center justify-between'>
       <div className='flex flex-col justify-center items-center p-10'>
-        <p>instruktor Rarity Academy</p>
-        <h1 className='text-lg my-6'>szkolenia</h1>
+        <Typography variant='h3'>instruktor Rarity Academy</Typography>
+        <Typography variant='h2'>szkolenia</Typography>
         <article className='text-center flex flex-col gap-1'>
-          <p>Jak zostać stylistką rzęs?</p>
-          <p>Jak nauczyć się przedłużać rzęsy?</p>
-          <p>Chciałabyś zdobyć nowy zawód?</p>
-          <p>Szukasz pracy dodatkowej?</p>
-          <p>
+          <Typography variant='body'>Jak zostać stylistką rzęs?</Typography>
+          <Typography variant='body'>Jak nauczyć się przedłużać rzęsy?</Typography>
+          <Typography variant='body'>Chciałabyś zdobyć nowy zawód?</Typography>
+          <Typography variant='body'>Szukasz pracy dodatkowej?</Typography>
+          <Typography variant='body'>
             A może już jesteś w branży beauty i chciałabyś zdobyć nowe kwalifikacje?
-          </p>
-          <p>
+          </Typography>
+          <Typography variant='body'>
             A może sama jesteś klientką i chciałabyś spróbować być po tej drugiej stronie?
-          </p>
-          <p>
+          </Typography>
+          <Typography variant='body'>
             Jakikolwiek jest powód tego, że tu zaglądasz... Jeżeli szukasz profesjonalnego oraz
             efektywnego szkolenia w województwie Opolskim to jesteś w najlepszym miejscu !
-          </p>
-          <p>
+          </Typography>
+          <Typography variant='body'>
             Prowadzę szkolenia w wojewódzctwie Opolskim z przedłużania rzęs. Szkolenia te prowadzę w ramach współpracy z firmą Rarity Academy.
-          </p>
+          </Typography>
         </article>
       </div>
       <div className='flex justify-center items-center w-1/2'>

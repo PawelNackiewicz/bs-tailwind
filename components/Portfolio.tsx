@@ -1,10 +1,11 @@
 import React from 'react';
 import Image from 'next/image'
+import { Typography } from './Typography';
 
 export const Portfolio = () => {
     return (
         <div className='flex flex-col items-center py-20 px-6'>
-            <h4 className='font-Glory text-3xl'>Portfolio</h4>
+            <Typography variant='h2'>Portfolio</Typography>
             <div className='flex gap-4 my-10'>
                 <Image alt='portfolio1' src='/img/main/portfolio_1.jpg' layout='intrinsic' quality={100} width={300} height={400} />
                 <Image alt='portfolio2' src='/img/main/portfolio_2.jpg' layout='intrinsic' quality={100} width={300} height={400} />
